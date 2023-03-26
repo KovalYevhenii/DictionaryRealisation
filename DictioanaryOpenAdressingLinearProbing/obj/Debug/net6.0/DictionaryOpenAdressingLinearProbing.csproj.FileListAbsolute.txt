@@ -1,0 +1,15 @@
+C:\Users\koval\Desktop\Projekts\DictioanaryRealisation\DictioanaryOpenAdressingLinearProbing\bin\Debug\net6.0\DictionaryOpenAdressingLinearProbing.exe
+C:\Users\koval\Desktop\Projekts\DictioanaryRealisation\DictioanaryOpenAdressingLinearProbing\bin\Debug\net6.0\DictionaryOpenAdressingLinearProbing.deps.json
+C:\Users\koval\Desktop\Projekts\DictioanaryRealisation\DictioanaryOpenAdressingLinearProbing\bin\Debug\net6.0\DictionaryOpenAdressingLinearProbing.runtimeconfig.json
+C:\Users\koval\Desktop\Projekts\DictioanaryRealisation\DictioanaryOpenAdressingLinearProbing\bin\Debug\net6.0\DictionaryOpenAdressingLinearProbing.dll
+C:\Users\koval\Desktop\Projekts\DictioanaryRealisation\DictioanaryOpenAdressingLinearProbing\bin\Debug\net6.0\DictionaryOpenAdressingLinearProbing.pdb
+C:\Users\koval\Desktop\Projekts\DictioanaryRealisation\DictioanaryOpenAdressingLinearProbing\obj\Debug\net6.0\DictionaryOpenAdressingLinearProbing.csproj.AssemblyReference.cache
+C:\Users\koval\Desktop\Projekts\DictioanaryRealisation\DictioanaryOpenAdressingLinearProbing\obj\Debug\net6.0\DictionaryOpenAdressingLinearProbing.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\koval\Desktop\Projekts\DictioanaryRealisation\DictioanaryOpenAdressingLinearProbing\obj\Debug\net6.0\DictionaryOpenAdressingLinearProbing.AssemblyInfoInputs.cache
+C:\Users\koval\Desktop\Projekts\DictioanaryRealisation\DictioanaryOpenAdressingLinearProbing\obj\Debug\net6.0\DictionaryOpenAdressingLinearProbing.AssemblyInfo.cs
+C:\Users\koval\Desktop\Projekts\DictioanaryRealisation\DictioanaryOpenAdressingLinearProbing\obj\Debug\net6.0\DictionaryOpenAdressingLinearProbing.csproj.CoreCompileInputs.cache
+C:\Users\koval\Desktop\Projekts\DictioanaryRealisation\DictioanaryOpenAdressingLinearProbing\obj\Debug\net6.0\DictionaryOpenAdressingLinearProbing.dll
+C:\Users\koval\Desktop\Projekts\DictioanaryRealisation\DictioanaryOpenAdressingLinearProbing\obj\Debug\net6.0\refint\DictionaryOpenAdressingLinearProbing.dll
+C:\Users\koval\Desktop\Projekts\DictioanaryRealisation\DictioanaryOpenAdressingLinearProbing\obj\Debug\net6.0\DictionaryOpenAdressingLinearProbing.pdb
+C:\Users\koval\Desktop\Projekts\DictioanaryRealisation\DictioanaryOpenAdressingLinearProbing\obj\Debug\net6.0\DictionaryOpenAdressingLinearProbing.genruntimeconfig.cache
+C:\Users\koval\Desktop\Projekts\DictioanaryRealisation\DictioanaryOpenAdressingLinearProbing\obj\Debug\net6.0\ref\DictionaryOpenAdressingLinearProbing.dll
