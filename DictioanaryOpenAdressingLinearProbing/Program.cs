@@ -46,14 +46,7 @@
      
             Console.WriteLine(dictionary[66]);
             Console.WriteLine(dictionary[1]);
-            Console.WriteLine(dictionary[-1]);
-            
-         
+            Console.WriteLine(dictionary[-1]);         
         }
     }
 }
-
-
-
-
-
