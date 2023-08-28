@@ -1,6 +1,4 @@
 ﻿
-using System.Xml;
-
 namespace DictioanaryOpenAdressingLinearProbing
 {
     public class OtusDictionary
