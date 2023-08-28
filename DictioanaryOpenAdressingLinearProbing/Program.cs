@@ -8,6 +8,7 @@
 
             dictionary.Add(2, null);
             dictionary.Add(0, "0");
+            dictionary.Add(-1, "0");
             dictionary.Add(10, "Value10"); 
             dictionary.Add(32, "Value32");
             dictionary.Add(25, "Value25");
