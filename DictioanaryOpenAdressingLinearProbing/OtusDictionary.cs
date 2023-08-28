@@ -85,7 +85,6 @@ namespace DictioanaryOpenAdressingLinearProbing
 
         public string Get(int key)
         {
-
             int index = FindKeyIndex(key);
 
             if (_keys[index] == 0)
