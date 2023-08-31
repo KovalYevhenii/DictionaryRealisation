@@ -71,9 +71,9 @@ namespace DictioanaryOpenAdressingLinearProbing
 
             for (int i = 0; i < _capacity; i++)
             {
-                    int newIndex = FindEmptySlot(_keys[i]);
-                    newKeys[newIndex] = _keys[i];
-                    newValues[newIndex] = _values[i];
+                int newIndex = FindEmptySlot(_keys[i]);
+                newKeys[newIndex] = _keys[i];
+                newValues[newIndex] = _values[i];
             }
 
             _keys = newKeys;
