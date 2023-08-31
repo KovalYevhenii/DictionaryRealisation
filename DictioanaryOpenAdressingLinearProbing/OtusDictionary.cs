@@ -93,7 +93,7 @@ namespace DictioanaryOpenAdressingLinearProbing
             return _values[index];
         }
 
-        public int FindKeyIndex(int key)
+        private int FindKeyIndex(int key)
         {
             int index = Math.Abs(key) % _capacity;
 
