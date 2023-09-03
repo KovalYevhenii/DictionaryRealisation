@@ -19,7 +19,7 @@ namespace MyDictionary
         {
             if (_count == _capacity)
                 Resize();
-            
+
             var index = _count;
             _keys[index] = key;
             _values[index] = value ?? throw new ArgumentNullException(nameof(value), "Value can not be null");
@@ -44,12 +44,12 @@ namespace MyDictionary
         }
         public string Get(int key)
         {
-                for (int i = 0; i < _capacity; i++)
-                {
-                    if (_keys[i] == key)
-                        return _values[i];
-                }
-            
+            for (int i = 0; i < _capacity; i++)
+            {
+                if (_keys[i] == key)
+                    return _values[i];
+            }
+
             return $" Key:[{key}] is not present in the dictionary";
         }
         public string this[int key]
