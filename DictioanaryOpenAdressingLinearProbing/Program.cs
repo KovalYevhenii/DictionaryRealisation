@@ -1,15 +1,13 @@
-﻿namespace DictioanaryOpenAdressingLinearProbing
+﻿
+namespace MyDictionary
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            var dictionary = new OtusDictionary(32);
-
-            dictionary.Add(2, null);
-            dictionary.Add(0, "0");
-            dictionary.Add(-1, "0");
-            dictionary.Add(10, "Value10"); 
+            MyDictionary dictionary = new(32);
+           
+            dictionary.Add(0, "V 0"); 
             dictionary.Add(32, "Value32");
             dictionary.Add(25, "Value25");
             dictionary.Add(7, "Value7");
@@ -44,8 +42,11 @@
             dictionary.Add(64, "Value64");
             dictionary.Add(64, "Value64");
             dictionary.Add(65, "Value65");
+            dictionary.Add(66, "Value65");
      
             Console.WriteLine(dictionary[66]);
+            Console.WriteLine(dictionary[0]);
+            Console.WriteLine(dictionary[32]);
             Console.WriteLine(dictionary[1]);
             Console.WriteLine(dictionary[-1]);         
         }
