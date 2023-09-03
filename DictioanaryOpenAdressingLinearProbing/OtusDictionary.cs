@@ -71,9 +71,9 @@ namespace DictioanaryOpenAdressingLinearProbing
 
             for (int i = 0; i < _capacity; i++)
             {
-                    int newIndex = FindEmptySlot(_keys[i]);
-                    newKeys[newIndex] = _keys[i];
-                    newValues[newIndex] = _values[i];
+                int newIndex = FindEmptySlot(_keys[i]);
+                newKeys[newIndex] = _keys[i];
+                newValues[newIndex] = _values[i];
             }
 
             _keys = newKeys;
@@ -93,7 +93,7 @@ namespace DictioanaryOpenAdressingLinearProbing
             return _values[index];
         }
 
-        public int FindKeyIndex(int key)
+        private int FindKeyIndex(int key)
         {
             int index = Math.Abs(key) % _capacity;
 
