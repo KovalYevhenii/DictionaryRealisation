@@ -1,0 +1,15 @@
+C:\Users\koval\Desktop\Projekts\DictioanaryRealisation\DictioanaryOpenAdressingLinearProbing\bin\Debug\net6.0\OtusDictionary.exe
+C:\Users\koval\Desktop\Projekts\DictioanaryRealisation\DictioanaryOpenAdressingLinearProbing\bin\Debug\net6.0\OtusDictionary.deps.json
+C:\Users\koval\Desktop\Projekts\DictioanaryRealisation\DictioanaryOpenAdressingLinearProbing\bin\Debug\net6.0\OtusDictionary.runtimeconfig.json
+C:\Users\koval\Desktop\Projekts\DictioanaryRealisation\DictioanaryOpenAdressingLinearProbing\bin\Debug\net6.0\OtusDictionary.dll
+C:\Users\koval\Desktop\Projekts\DictioanaryRealisation\DictioanaryOpenAdressingLinearProbing\bin\Debug\net6.0\OtusDictionary.pdb
+C:\Users\koval\Desktop\Projekts\DictioanaryRealisation\DictioanaryOpenAdressingLinearProbing\obj\Debug\net6.0\OtusDictionary.csproj.AssemblyReference.cache
+C:\Users\koval\Desktop\Projekts\DictioanaryRealisation\DictioanaryOpenAdressingLinearProbing\obj\Debug\net6.0\OtusDictionary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\koval\Desktop\Projekts\DictioanaryRealisation\DictioanaryOpenAdressingLinearProbing\obj\Debug\net6.0\OtusDictionary.AssemblyInfoInputs.cache
+C:\Users\koval\Desktop\Projekts\DictioanaryRealisation\DictioanaryOpenAdressingLinearProbing\obj\Debug\net6.0\OtusDictionary.AssemblyInfo.cs
+C:\Users\koval\Desktop\Projekts\DictioanaryRealisation\DictioanaryOpenAdressingLinearProbing\obj\Debug\net6.0\OtusDictionary.csproj.CoreCompileInputs.cache
+C:\Users\koval\Desktop\Projekts\DictioanaryRealisation\DictioanaryOpenAdressingLinearProbing\obj\Debug\net6.0\OtusDictionary.dll
+C:\Users\koval\Desktop\Projekts\DictioanaryRealisation\DictioanaryOpenAdressingLinearProbing\obj\Debug\net6.0\refint\OtusDictionary.dll
+C:\Users\koval\Desktop\Projekts\DictioanaryRealisation\DictioanaryOpenAdressingLinearProbing\obj\Debug\net6.0\OtusDictionary.pdb
+C:\Users\koval\Desktop\Projekts\DictioanaryRealisation\DictioanaryOpenAdressingLinearProbing\obj\Debug\net6.0\OtusDictionary.genruntimeconfig.cache
+C:\Users\koval\Desktop\Projekts\DictioanaryRealisation\DictioanaryOpenAdressingLinearProbing\obj\Debug\net6.0\ref\OtusDictionary.dll

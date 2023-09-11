@@ -6,8 +6,6 @@ namespace MyDictionary
         private int _capacity;
         private int[] _keys;
         private string[] _values;
-        private int _count;
-
         public MyDictionary(int initialCapacity)
         {
             _keys = new int[initialCapacity];
@@ -17,31 +15,33 @@ namespace MyDictionary
 
         public void Add(int key, string value)
         {
-            if (_count == _capacity)
-                Resize();
+            var index = Math.Abs(key) % _capacity;
 
-            var index = _count;
-            _keys[index] = key;
-            _values[index] = value ?? throw new ArgumentNullException(nameof(value), "Value can not be null");
-            _count++;
-        }
-
-        private void Resize()
-        {
-            int newCapacity = _capacity * 2;
-            int[] newKeys = new int[newCapacity];
-            string[] newValues = new string[newCapacity];
-
-            for (int i = 0; i < _capacity; i++)
+            if (_values[index] == null)
             {
-                newKeys[i] = _keys[i];
-                newValues[i] = _values[i];
+                _values[index] = value ?? throw new ArgumentNullException(nameof(value), "Value can not be null");
+                _keys[index] = key;
             }
+            else
+            {
+                int newCapacity = _capacity * 2;
+                int[] newKeys = new int[newCapacity];
+                string[] newValues = new string[newCapacity];
 
-            _keys = newKeys;
-            _values = newValues;
-            _capacity = newCapacity;
+                for (int i = 0; i < _capacity; i++)
+                {
+                    var newIndex = Math.Abs(_keys[i]) % _capacity;
+                    newKeys[newIndex] = _keys[newIndex];
+                    newValues[newIndex] = _values[newIndex];
+                }
+
+                _keys = newKeys;
+                _values = newValues;
+                _capacity = newCapacity;
+                Add(key, value);
+            }
         }
+
         public string Get(int key)
         {
             for (int i = 0; i < _capacity; i++)
@@ -52,9 +52,7 @@ namespace MyDictionary
 
             return $" Key:[{key}] is not present in the dictionary";
         }
-        public string this[int key]
-        {
-            get => Get(key);
-        }
+
+        public string this[int key] => Get(key);
     }
 }

@@ -13,9 +13,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\koval\\Desktop\\Projekts\\DictioanaryRealisation\\DictioanaryOpenAdressingLinearProbing\\MyDictionary.csproj",
-      "projectName": "MyDictionary",
-      "projectPath": "C:\\Users\\koval\\Desktop\\Projekts\\DictioanaryRealisation\\DictioanaryOpenAdressingLinearProbing\\MyDictionary.csproj",
+      "projectUniqueName": "C:\\Users\\koval\\Desktop\\Projekts\\DictioanaryRealisation\\DictioanaryOpenAdressingLinearProbing\\OtusDictionary.csproj",
+      "projectName": "OtusDictionary",
+      "projectPath": "C:\\Users\\koval\\Desktop\\Projekts\\DictioanaryRealisation\\DictioanaryOpenAdressingLinearProbing\\OtusDictionary.csproj",
       "packagesPath": "C:\\Users\\koval\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\koval\\Desktop\\Projekts\\DictioanaryRealisation\\DictioanaryOpenAdressingLinearProbing\\obj\\",
       "projectStyle": "PackageReference",
