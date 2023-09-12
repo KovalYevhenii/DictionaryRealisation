@@ -6,7 +6,8 @@ namespace MyDictionary
         private int _capacity;
         private int[] _keys;
         private string[] _values;
-        public MyDictionary(int initialCapacity)
+
+        public MyDictionary(int initialCapacity = 32)
         {
             _keys = new int[initialCapacity];
             _values = new string[initialCapacity];
@@ -44,13 +45,11 @@ namespace MyDictionary
 
         public string Get(int key)
         {
-            for (int i = 0; i < _capacity; i++)
-            {
-                if (_keys[i] == key)
-                    return _values[i];
-            }
+            var index = Math.Abs(key) % _capacity;
 
-            return $" Key:[{key}] is not present in the dictionary";
+            if (_values[index] != null) return _values[index];
+
+            else throw new KeyNotFoundException();
         }
 
         public string this[int key] => Get(key);
